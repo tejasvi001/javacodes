@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 0 elements to &apos;KreativanTechnologies/src/functionsandmethods&apos;&#x0D;&#x0A;- Destination element: &apos;KreativanTechnologies/src/functionsandmethods&apos;" description="Copy compilation units" destination="=KreativanTechnologies/src&lt;functionsandmethods" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1705386558862" units="0" version="1.0"/>
+</session>

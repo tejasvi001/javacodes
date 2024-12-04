@@ -1,0 +1,27 @@
+package linkedlist;
+
+import java.util.Scanner;
+
+public class Sort012 {
+	static Scanner input;
+	static {
+		input=new Scanner(System.in);
+	}
+	class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data=data;
+			this.next=null;
+		}
+	} 
+	Node head=null;
+	public Node addFirst(int data) {
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

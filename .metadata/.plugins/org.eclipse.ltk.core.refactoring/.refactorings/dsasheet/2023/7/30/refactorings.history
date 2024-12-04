@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dsasheet.UnionIntersectionArray&apos; to &apos;UnionArray&apos;&#x0D;&#x0A;- Original project: &apos;dsasheet&apos;&#x0D;&#x0A;- Original element: &apos;dsasheet.UnionIntersectionArray&apos;&#x0D;&#x0A;- Renamed element: &apos;dsasheet.UnionArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UnionIntersectionArray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;dsasheet{UnionIntersectionArray.java[UnionIntersectionArray" matchStrategy="1" name="UnionArray" qualified="false" references="true" similarDeclarations="true" stamp="1690180261762" textual="false" version="1.0"/>
+</session>

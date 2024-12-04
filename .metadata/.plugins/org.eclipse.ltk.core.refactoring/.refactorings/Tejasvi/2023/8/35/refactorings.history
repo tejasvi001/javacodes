@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;practice.HashSet&apos; to &apos;HashSets&apos;&#x0D;&#x0A;- Original project: &apos;Tejasvi&apos;&#x0D;&#x0A;- Original element: &apos;practice.HashSet&apos;&#x0D;&#x0A;- Renamed element: &apos;practice.HashSets&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HashSet&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;practice{HashSet.java[HashSet" matchStrategy="1" name="HashSets" qualified="false" references="true" similarDeclarations="true" stamp="1693129815748" textual="false" version="1.0"/>
+</session>

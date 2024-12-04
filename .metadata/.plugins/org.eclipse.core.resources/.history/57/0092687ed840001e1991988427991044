@@ -1,0 +1,51 @@
+package assignments.trainLinkedlist;
+
+
+
+public class Train {
+	class Coach{
+		String coach_name;
+		Coach next;
+		Coach(String coach_name){
+			this.coach_name=coach_name;
+			this.next=null;
+		}
+	}
+	private Coach head;
+	public Train() {
+		this.head=null;
+	}
+	public Coach add(String name) {
+		Coach newCoach=new Coach(name);
+		newCoach.next=head;
+		head=newCoach;
+		return head;
+	}
+	public void display() {
+		// TODO Auto-generated method stub
+		if(head==null) {
+			System.out.println(" the train do not have any coaches ");
+			return;
+		}
+		Coach node=head;
+		while(node!=null) {
+			System.out.print(node.coach_name+"-");
+			node=node.next;
+		}
+		System.out.println();
+	}
+	public static void main(String[] args) {
+		Train t=new Train();
+		t.add("A1");
+		t.add("A2");
+		t.add("A3");
+		t.add("A4");
+		t.add("A5");
+		t.add("<Engine>");
+		t.display();
+	}
+
+
+		
+
+}

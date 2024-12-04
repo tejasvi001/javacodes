@@ -1,0 +1,46 @@
+package linkedlist;
+
+import java.util.Scanner;
+
+public class Sort012 {
+	static Scanner input;
+	static {
+		input=new Scanner(System.in);
+	}
+	class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data=data;
+			this.next=null;
+		}
+	} 
+	Node head=null;
+	public Node addFirst(int data) {
+		Node newNode=new Node(data);
+		newNode.next=head;
+		head=newNode;
+		return head;
+	}
+	public void display() {
+		Node temp=head;
+		while(temp!=null) {
+			System.out.print(temp.data+"->");
+			temp=temp.next;
+		}
+		System.out.println("NULL");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Sort012 obj=new Sort012();
+        obj.addFirst(1);
+        obj.addFirst(1);
+        obj.addFirst(2);
+        obj.addFirst(0);
+        obj.addFirst(2);
+        obj.addFirst(0);
+        obj.addFirst(1);
+        obj.display();
+	}
+
+}
